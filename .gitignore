@@ -120,7 +120,6 @@ bower_components/
 
 local_files/
 media/
-static/
 public/lib/
 vol/*
 !vol/.gitkeep
