@@ -106,7 +106,7 @@ while user.still_has_cards() and comp.still_has_cards():
             user.hand.add(table_cards)
         else:
             comp.hand.add(table_cards)
-
+# TODO figure out why comp is always win
 print(f'game over, number of rounds: {str(total_rounds)}')
 print(f'a war happened {str(war_count)} times')
 print('Does the computer have cards')
