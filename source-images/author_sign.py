@@ -21,6 +21,7 @@ def watermark_text(input_image_path,
     photo.save(output_image_path)
 
 
+# TODO make it work properly
 if __name__ == '__main__':
     for r, d, f in os.walk(os.getcwd()):
         for file in f:
